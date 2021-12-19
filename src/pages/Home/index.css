@@ -1,0 +1,7 @@
+.Home{
+    min-height: calc(100vh - 66px);
+   display: flex;
+  align-items: center;
+  justify-content: center;
+    background: url("../../utils/images/defaultBcg.jpeg") center/cover no-repeat;
+}

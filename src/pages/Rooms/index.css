@@ -1,0 +1,10 @@
+.Room {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.roomsCustomBG {
+  background-image: url("../../utils/images/room-2.jpeg") !important;
+  
+}

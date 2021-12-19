@@ -1,0 +1,3 @@
+interface IStateNavbar {
+  isOpen: boolean;
+}
