@@ -2,6 +2,8 @@ import React from 'react';
 import "./index.css";
 import CustomCover from "../../components/CustomCover";
 import CustomCard from "../../components/CustomCard";
+import CustumService from "../../components/CustumService";
+// import FeaturedRooms from "../../components/FeaturedRooms";
 import { Link } from 'react-router-dom';
 const index =()=>{
     return (
@@ -15,7 +17,8 @@ const index =()=>{
                 <Link to="/rooms" className="btn-primary">nos chambres</Link>
                 </CustomCard>
             </CustomCover></div>
-          
+            <CustumService/>
+          {/* <FeaturedRooms/> */}
             </React.Fragment>
     )
 }

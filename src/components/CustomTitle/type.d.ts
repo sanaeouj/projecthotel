@@ -1,0 +1,3 @@
+interface TitleProps {
+    title: string;
+}
