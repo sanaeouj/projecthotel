@@ -12,7 +12,7 @@ const index = () => {
                      </img>
         </Navbar.Brand>
         <Nav className="me-auto">
-          <Nav.Link href="/SingleRoom">Chambre Simple </Nav.Link>
+          <Nav.Link href="/SingleRooms">Chambre Simple </Nav.Link>
           <Nav.Link href="/Rooms">Chambre</Nav.Link>
           <Nav.Link href="/Home">Accueil</Nav.Link>
         </Nav>

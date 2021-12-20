@@ -1,5 +1,4 @@
 import React from "react";
-import CustomBG from "../../components/CustomBG";
 import CustomCover from "../../components/CustomCover";
 import CustomCard from "../../components/CustomCard";
 import { Link } from "react-router-dom";
@@ -15,6 +14,7 @@ const index = () => {
             </Link>
           </CustomCard>
         </CustomCover>
+        
       </div>{" "}
     </React.Fragment>
   );

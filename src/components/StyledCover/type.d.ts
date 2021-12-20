@@ -1,0 +1,3 @@
+interface IPropsStyledCover {
+    img: string;
+}

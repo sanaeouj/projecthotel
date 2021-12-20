@@ -1,0 +1,3 @@
+interface IPropsRoomsFilter {
+    rooms: any[];
+}
