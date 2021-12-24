@@ -18,7 +18,7 @@ const index =()=>{
                 </CustomCard>
             </CustomCover></div>
             <CustumService/>
-            <Featured/>
+           
             </React.Fragment>
     )
 }
