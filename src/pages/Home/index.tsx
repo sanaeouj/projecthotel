@@ -3,7 +3,7 @@ import "./index.css";
 import CustomCover from "../../components/CustomCover";
 import CustomCard from "../../components/CustomCard";
 import CustumService from "../../components/CustumService";
-import FeaturedRooms from "../../components/FeaturedRooms";
+import Featured from "../../components/Featured";
 import { Link } from 'react-router-dom';
 const index =()=>{
     return (
@@ -18,7 +18,7 @@ const index =()=>{
                 </CustomCard>
             </CustomCover></div>
             <CustumService/>
-            {/* <FeaturedRooms /> */}
+            <Featured/>
             </React.Fragment>
     )
 }

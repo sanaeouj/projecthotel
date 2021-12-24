@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import defaultImg from "../assets/images/room-1.jpeg";
+import defaultImg from "../../utils/images/room-1.jpeg";
 
 const StyledCover = styled.header<IPropsStyledCover>`
   min-height: 60vh;

@@ -3,7 +3,7 @@ import defaultImg from "../../utils/images/room-1.jpeg";
 import { Link } from "react-router-dom";
 import { RoomObject } from "../../Types/Types";
 
-const Room: React.FC<IRoomProps> = React.memo((props) => {
+const Room  = React.memo((props:IRoomProps) => {
     const { name, slug, images, price } = props.room;
     //  console.log(props);
     return (

@@ -1,7 +1,7 @@
 import React from "react";
 import Room from "../Room";
 
-const RoomsList: React.FC<IPropsRoomsFilter> = ({ rooms }) => {
+const RoomsList = ({ rooms }:IPropsRoomsFilter) => {
   if (rooms.length === 0) {
     return (
       <div className="empty-search">

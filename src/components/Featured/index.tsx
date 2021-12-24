@@ -17,6 +17,7 @@ export default class FeaturedRooms extends Component {
           <section className="featured-rooms"> 
               <CustomTitle title="featured rooms"/>
               <div className="featured-rooms-center">
+                  
                   {loading ? <CustomLoading /> : rooms}
               </div>
           </section>
